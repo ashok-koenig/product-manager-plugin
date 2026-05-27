@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "product-manager-plugin",
+  "displayName": "Product Manager",
+  "version": "1.0.0",
+  "description": "Natural-language tools for the Product Management API. List, search, and create products from any Claude Code session.",
+  "author": {
+    "name": "Ashok S",
+    "email": "ashok.s@koenig-solutions.com",
+    "url": "https://github.com/ashok-koenig/product-manager-plugin"
+  },
+  "homepage": "https://github.com/ashok-koenig/product-manager-plugin",
+  "repository": "https://github.com/ashok-koenig/product-manager-plugin",
+  "license": "MIT",
+  "keywords": ["products", "catalogue", "api", "management"],
+  "mcpServers": {
+    "product-api": {
+      "type": "http",
+      "url": "https://product-management-api-dhqy.onrender.com/mcp"
+    }
+  } 
+}
